@@ -1,0 +1,1295 @@
+[
+  {
+    "field_name": "location.y",
+    "field_value_info": {
+      "data_type": "int",
+      "example_values": [
+        63,
+        60,
+        60,
+        63,
+        61
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      }
+    ]
+  },
+  {
+    "field_name": "details.message",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "Player joined the game",
+        "Does anyone have spare food?",
+        "Player joined the game",
+        "Anyone up for a raid?",
+        "Looking for diamonds!"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_2043",
+        "timestamp": "2024-11-17T03:53:06Z",
+        "location.x": -139,
+        "location.y": 61,
+        "location.z": 320,
+        "details.message": "Anyone up for a raid?",
+        "details.chat_channel": "global",
+        "event.id": "event_006"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_2238",
+        "timestamp": "2024-11-18T16:22:58Z",
+        "location.x": 60,
+        "location.y": 69,
+        "location.z": 196,
+        "details.message": "Looking for diamonds!",
+        "details.chat_channel": "global",
+        "event.id": "event_010"
+      }
+    ]
+  },
+  {
+    "field_name": "details.items_dropped",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "iron_sword, sand",
+        "diamond_pickaxe, stone",
+        "stone_shovel, stone",
+        "wooden_axe, oak_log",
+        "stone_shovel, sand"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_8873",
+        "timestamp": "2024-11-15T11:23:43Z",
+        "location.x": -330,
+        "location.y": 64,
+        "location.z": 281,
+        "details.cause": "fall_damage",
+        "details.killer": "player_8348",
+        "details.items_dropped": "diamond_pickaxe, stone",
+        "event.id": "event_015"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_5153",
+        "timestamp": "2024-11-16T19:27:59Z",
+        "location.x": -222,
+        "location.y": 61,
+        "location.z": 431,
+        "details.cause": "drowned",
+        "details.killer": "player_4857",
+        "details.items_dropped": "stone_shovel, stone",
+        "event.id": "event_016"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_9425",
+        "timestamp": "2024-11-14T17:10:37Z",
+        "location.x": -444,
+        "location.y": 63,
+        "location.z": -291,
+        "details.cause": "lava",
+        "details.killer": "spider",
+        "details.items_dropped": "wooden_axe, oak_log",
+        "event.id": "event_026"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_1311",
+        "timestamp": "2024-11-18T02:47:50Z",
+        "location.x": 184,
+        "location.y": 66,
+        "location.z": -268,
+        "details.cause": "mob_attack",
+        "details.killer": null,
+        "details.items_dropped": "stone_shovel, sand",
+        "event.id": "event_030"
+      }
+    ]
+  },
+  {
+    "field_name": "details.chat_channel",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "global",
+        "global",
+        "global",
+        "global",
+        "global"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_2043",
+        "timestamp": "2024-11-17T03:53:06Z",
+        "location.x": -139,
+        "location.y": 61,
+        "location.z": 320,
+        "details.message": "Anyone up for a raid?",
+        "details.chat_channel": "global",
+        "event.id": "event_006"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_2238",
+        "timestamp": "2024-11-18T16:22:58Z",
+        "location.x": 60,
+        "location.y": 69,
+        "location.z": 196,
+        "details.message": "Looking for diamonds!",
+        "details.chat_channel": "global",
+        "event.id": "event_010"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_2173",
+        "timestamp": "2024-11-10T09:15:27Z",
+        "location.x": -352,
+        "location.y": 61,
+        "location.z": -485,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_018"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_6497",
+        "timestamp": "2024-11-13T13:59:13Z",
+        "location.x": -182,
+        "location.y": 60,
+        "location.z": -391,
+        "details.message": "Looking for diamonds!",
+        "details.chat_channel": "global",
+        "event.id": "event_049"
+      }
+    ]
+  },
+  {
+    "field_name": "details.ingredients_used",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "iron_ingot, stick",
+        "iron_ingot, stick",
+        "cobblestone",
+        "cobblestone",
+        "coal, stick"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "item_craft",
+        "player_id": "player_7003",
+        "timestamp": "2024-11-16T13:37:15Z",
+        "location.x": -216,
+        "location.y": 70,
+        "location.z": 298,
+        "details.crafted_item": "iron_sword",
+        "details.ingredients_used": "iron_ingot, stick",
+        "event.id": "event_021"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_9474",
+        "timestamp": "2024-11-19T21:21:13Z",
+        "location.x": -368,
+        "location.y": 66,
+        "location.z": -43,
+        "details.crafted_item": "iron_sword",
+        "details.ingredients_used": "iron_ingot, stick",
+        "event.id": "event_027"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_4521",
+        "timestamp": "2024-11-19T12:18:55Z",
+        "location.x": -412,
+        "location.y": 64,
+        "location.z": 497,
+        "details.crafted_item": "furnace",
+        "details.ingredients_used": "cobblestone",
+        "event.id": "event_032"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_3413",
+        "timestamp": "2024-11-14T17:57:37Z",
+        "location.x": 39,
+        "location.y": 66,
+        "location.z": 348,
+        "details.crafted_item": "furnace",
+        "details.ingredients_used": "cobblestone",
+        "event.id": "event_038"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_7603",
+        "timestamp": "2024-11-13T15:24:48Z",
+        "location.x": -345,
+        "location.y": 63,
+        "location.z": 295,
+        "details.crafted_item": "torch",
+        "details.ingredients_used": "coal, stick",
+        "event.id": "event_039"
+      }
+    ]
+  },
+  {
+    "field_name": "details.block_type",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "sand",
+        "sand",
+        "sand",
+        "stone",
+        "sand"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "block_break",
+        "player_id": "player_8884",
+        "timestamp": "2024-11-10T08:22:18Z",
+        "location.x": -68,
+        "location.y": 69,
+        "location.z": 409,
+        "details.block_type": "sand",
+        "details.tool_used": "diamond_pickaxe",
+        "details.dropped_items": "oak_log",
+        "event.id": "event_019"
+      },
+      {
+        "event_type": "block_break",
+        "player_id": "player_2250",
+        "timestamp": "2024-11-18T09:08:31Z",
+        "location.x": 93,
+        "location.y": 62,
+        "location.z": -283,
+        "details.block_type": "sand",
+        "details.tool_used": "iron_sword",
+        "details.dropped_items": "oak_log",
+        "event.id": "event_023"
+      },
+      {
+        "event_type": "block_break",
+        "player_id": "player_7929",
+        "timestamp": "2024-11-14T13:32:45Z",
+        "location.x": -30,
+        "location.y": 60,
+        "location.z": -105,
+        "details.block_type": "stone",
+        "details.tool_used": "stone_shovel",
+        "details.dropped_items": "sand",
+        "event.id": "event_025"
+      },
+      {
+        "event_type": "block_break",
+        "player_id": "player_6097",
+        "timestamp": "2024-11-15T08:50:32Z",
+        "location.x": -113,
+        "location.y": 66,
+        "location.z": -95,
+        "details.block_type": "sand",
+        "details.tool_used": "diamond_pickaxe",
+        "details.dropped_items": "dirt",
+        "event.id": "event_029"
+      }
+    ]
+  },
+  {
+    "field_name": "player_id",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "player_6254",
+        "player_2731",
+        "player_2195",
+        "player_4048",
+        "player_7136"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      }
+    ]
+  },
+  {
+    "field_name": "details.tool_used",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "wooden_axe",
+        "stone_shovel",
+        "wooden_axe",
+        "wooden_axe",
+        "stone_shovel"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_6011",
+        "timestamp": "2024-11-10T05:10:53Z",
+        "location.x": -383,
+        "location.y": 63,
+        "location.z": 10,
+        "details.mob_type": "zombie",
+        "details.tool_used": "stone_shovel",
+        "details.dropped_items": "creeper, sand",
+        "event.id": "event_007"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_9726",
+        "timestamp": "2024-11-10T23:14:54Z",
+        "location.x": -404,
+        "location.y": 67,
+        "location.z": 444,
+        "details.mob_type": "spider",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "creeper, dirt",
+        "event.id": "event_008"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_4604",
+        "timestamp": "2024-11-20T09:25:47Z",
+        "location.x": 237,
+        "location.y": 68,
+        "location.z": 171,
+        "details.mob_type": "zombie",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "creeper, stone",
+        "event.id": "event_009"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_1998",
+        "timestamp": "2024-11-11T10:05:10Z",
+        "location.x": 460,
+        "location.y": 61,
+        "location.z": -129,
+        "details.mob_type": "skeleton",
+        "details.tool_used": "stone_shovel",
+        "details.dropped_items": "spider, stone",
+        "event.id": "event_017"
+      }
+    ]
+  },
+  {
+    "field_name": "location.z",
+    "field_value_info": {
+      "data_type": "int",
+      "example_values": [
+        -36,
+        -238,
+        495,
+        248,
+        -52
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      }
+    ]
+  },
+  {
+    "field_name": "details.cause",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "drowned",
+        "fall_damage",
+        "drowned",
+        "lava",
+        "mob_attack"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_8873",
+        "timestamp": "2024-11-15T11:23:43Z",
+        "location.x": -330,
+        "location.y": 64,
+        "location.z": 281,
+        "details.cause": "fall_damage",
+        "details.killer": "player_8348",
+        "details.items_dropped": "diamond_pickaxe, stone",
+        "event.id": "event_015"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_5153",
+        "timestamp": "2024-11-16T19:27:59Z",
+        "location.x": -222,
+        "location.y": 61,
+        "location.z": 431,
+        "details.cause": "drowned",
+        "details.killer": "player_4857",
+        "details.items_dropped": "stone_shovel, stone",
+        "event.id": "event_016"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_9425",
+        "timestamp": "2024-11-14T17:10:37Z",
+        "location.x": -444,
+        "location.y": 63,
+        "location.z": -291,
+        "details.cause": "lava",
+        "details.killer": "spider",
+        "details.items_dropped": "wooden_axe, oak_log",
+        "event.id": "event_026"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_1311",
+        "timestamp": "2024-11-18T02:47:50Z",
+        "location.x": 184,
+        "location.y": 66,
+        "location.z": -268,
+        "details.cause": "mob_attack",
+        "details.killer": null,
+        "details.items_dropped": "stone_shovel, sand",
+        "event.id": "event_030"
+      }
+    ]
+  },
+  {
+    "field_name": "details.killer",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "player_1863",
+        "player_8348",
+        "player_4857",
+        "spider",
+        null
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_8873",
+        "timestamp": "2024-11-15T11:23:43Z",
+        "location.x": -330,
+        "location.y": 64,
+        "location.z": 281,
+        "details.cause": "fall_damage",
+        "details.killer": "player_8348",
+        "details.items_dropped": "diamond_pickaxe, stone",
+        "event.id": "event_015"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_5153",
+        "timestamp": "2024-11-16T19:27:59Z",
+        "location.x": -222,
+        "location.y": 61,
+        "location.z": 431,
+        "details.cause": "drowned",
+        "details.killer": "player_4857",
+        "details.items_dropped": "stone_shovel, stone",
+        "event.id": "event_016"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_9425",
+        "timestamp": "2024-11-14T17:10:37Z",
+        "location.x": -444,
+        "location.y": 63,
+        "location.z": -291,
+        "details.cause": "lava",
+        "details.killer": "spider",
+        "details.items_dropped": "wooden_axe, oak_log",
+        "event.id": "event_026"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_1311",
+        "timestamp": "2024-11-18T02:47:50Z",
+        "location.x": 184,
+        "location.y": 66,
+        "location.z": -268,
+        "details.cause": "mob_attack",
+        "details.killer": null,
+        "details.items_dropped": "stone_shovel, sand",
+        "event.id": "event_030"
+      }
+    ]
+  },
+  {
+    "field_name": "location.x",
+    "field_value_info": {
+      "data_type": "int",
+      "example_values": [
+        -27,
+        218,
+        -478,
+        -498,
+        228
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      }
+    ]
+  },
+  {
+    "field_name": "details.crafted_item",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "iron_sword",
+        "iron_sword",
+        "furnace",
+        "furnace",
+        "torch"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "item_craft",
+        "player_id": "player_7003",
+        "timestamp": "2024-11-16T13:37:15Z",
+        "location.x": -216,
+        "location.y": 70,
+        "location.z": 298,
+        "details.crafted_item": "iron_sword",
+        "details.ingredients_used": "iron_ingot, stick",
+        "event.id": "event_021"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_9474",
+        "timestamp": "2024-11-19T21:21:13Z",
+        "location.x": -368,
+        "location.y": 66,
+        "location.z": -43,
+        "details.crafted_item": "iron_sword",
+        "details.ingredients_used": "iron_ingot, stick",
+        "event.id": "event_027"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_4521",
+        "timestamp": "2024-11-19T12:18:55Z",
+        "location.x": -412,
+        "location.y": 64,
+        "location.z": 497,
+        "details.crafted_item": "furnace",
+        "details.ingredients_used": "cobblestone",
+        "event.id": "event_032"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_3413",
+        "timestamp": "2024-11-14T17:57:37Z",
+        "location.x": 39,
+        "location.y": 66,
+        "location.z": 348,
+        "details.crafted_item": "furnace",
+        "details.ingredients_used": "cobblestone",
+        "event.id": "event_038"
+      },
+      {
+        "event_type": "item_craft",
+        "player_id": "player_7603",
+        "timestamp": "2024-11-13T15:24:48Z",
+        "location.x": -345,
+        "location.y": 63,
+        "location.z": 295,
+        "details.crafted_item": "torch",
+        "details.ingredients_used": "coal, stick",
+        "event.id": "event_039"
+      }
+    ]
+  },
+  {
+    "field_name": "event_type",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "block_break",
+        "player_join",
+        "player_death",
+        "chat_message",
+        "player_join"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      }
+    ]
+  },
+  {
+    "field_name": "event.id",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "event_001",
+        "event_002",
+        "event_003",
+        "event_004",
+        "event_005"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      }
+    ]
+  },
+  {
+    "field_name": "details.mob_type",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "zombie",
+        "spider",
+        "zombie",
+        "skeleton",
+        "zombie"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_6011",
+        "timestamp": "2024-11-10T05:10:53Z",
+        "location.x": -383,
+        "location.y": 63,
+        "location.z": 10,
+        "details.mob_type": "zombie",
+        "details.tool_used": "stone_shovel",
+        "details.dropped_items": "creeper, sand",
+        "event.id": "event_007"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_9726",
+        "timestamp": "2024-11-10T23:14:54Z",
+        "location.x": -404,
+        "location.y": 67,
+        "location.z": 444,
+        "details.mob_type": "spider",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "creeper, dirt",
+        "event.id": "event_008"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_4604",
+        "timestamp": "2024-11-20T09:25:47Z",
+        "location.x": 237,
+        "location.y": 68,
+        "location.z": 171,
+        "details.mob_type": "zombie",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "creeper, stone",
+        "event.id": "event_009"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_1998",
+        "timestamp": "2024-11-11T10:05:10Z",
+        "location.x": 460,
+        "location.y": 61,
+        "location.z": -129,
+        "details.mob_type": "skeleton",
+        "details.tool_used": "stone_shovel",
+        "details.dropped_items": "spider, stone",
+        "event.id": "event_017"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_7109",
+        "timestamp": "2024-11-13T13:04:26Z",
+        "location.x": 45,
+        "location.y": 61,
+        "location.z": -188,
+        "details.mob_type": "zombie",
+        "details.tool_used": "diamond_pickaxe",
+        "details.dropped_items": "zombie, sand",
+        "event.id": "event_020"
+      }
+    ]
+  },
+  {
+    "field_name": "details.dropped_items",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "stone",
+        "creeper, sand",
+        "creeper, dirt",
+        "creeper, stone",
+        "spider, stone"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_6011",
+        "timestamp": "2024-11-10T05:10:53Z",
+        "location.x": -383,
+        "location.y": 63,
+        "location.z": 10,
+        "details.mob_type": "zombie",
+        "details.tool_used": "stone_shovel",
+        "details.dropped_items": "creeper, sand",
+        "event.id": "event_007"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_9726",
+        "timestamp": "2024-11-10T23:14:54Z",
+        "location.x": -404,
+        "location.y": 67,
+        "location.z": 444,
+        "details.mob_type": "spider",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "creeper, dirt",
+        "event.id": "event_008"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_4604",
+        "timestamp": "2024-11-20T09:25:47Z",
+        "location.x": 237,
+        "location.y": 68,
+        "location.z": 171,
+        "details.mob_type": "zombie",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "creeper, stone",
+        "event.id": "event_009"
+      },
+      {
+        "event_type": "mob_kill",
+        "player_id": "player_1998",
+        "timestamp": "2024-11-11T10:05:10Z",
+        "location.x": 460,
+        "location.y": 61,
+        "location.z": -129,
+        "details.mob_type": "skeleton",
+        "details.tool_used": "stone_shovel",
+        "details.dropped_items": "spider, stone",
+        "event.id": "event_017"
+      }
+    ]
+  },
+  {
+    "field_name": "timestamp",
+    "field_value_info": {
+      "data_type": "str",
+      "example_values": [
+        "2024-11-19T23:37:22Z",
+        "2024-11-19T08:30:46Z",
+        "2024-11-12T12:47:27Z",
+        "2024-11-20T06:13:17Z",
+        "2024-11-18T01:53:53Z"
+      ]
+    },
+    "field_elements": [
+      {
+        "event_type": "block_break",
+        "player_id": "player_6254",
+        "timestamp": "2024-11-19T23:37:22Z",
+        "location.x": -27,
+        "location.y": 63,
+        "location.z": -36,
+        "details.block_type": "sand",
+        "details.tool_used": "wooden_axe",
+        "details.dropped_items": "stone",
+        "event.id": "event_001"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_2731",
+        "timestamp": "2024-11-19T08:30:46Z",
+        "location.x": 218,
+        "location.y": 60,
+        "location.z": -238,
+        "details.message": "Player joined the game",
+        "event.id": "event_002"
+      },
+      {
+        "event_type": "player_death",
+        "player_id": "player_2195",
+        "timestamp": "2024-11-12T12:47:27Z",
+        "location.x": -478,
+        "location.y": 60,
+        "location.z": 495,
+        "details.cause": "drowned",
+        "details.killer": "player_1863",
+        "details.items_dropped": "iron_sword, sand",
+        "event.id": "event_003"
+      },
+      {
+        "event_type": "chat_message",
+        "player_id": "player_4048",
+        "timestamp": "2024-11-20T06:13:17Z",
+        "location.x": -498,
+        "location.y": 63,
+        "location.z": 248,
+        "details.message": "Does anyone have spare food?",
+        "details.chat_channel": "global",
+        "event.id": "event_004"
+      },
+      {
+        "event_type": "player_join",
+        "player_id": "player_7136",
+        "timestamp": "2024-11-18T01:53:53Z",
+        "location.x": 228,
+        "location.y": 61,
+        "location.z": -52,
+        "details.message": "Player joined the game",
+        "event.id": "event_005"
+      }
+    ]
+  }
+]

@@ -3,7 +3,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.tools.retriever import create_retriever_tool
 
-def get_retriever_tool(docs, model_name='openai-gpt'):
+def get_retriever_tool(docs, model_name='text-embedding-3-small'):
     
     text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
                         chunk_size=100, chunk_overlap=50
